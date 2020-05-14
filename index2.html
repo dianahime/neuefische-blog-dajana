@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>neuefische Blog</title>
+  </head>
+  <body class="container">
+    <header
+      class="d-flex flex-column align-items-center flex-md-row justify-content-md-between align-items-md-end"
+    >
+      <img
+        src="/img/neuefische-gmbh-logo.svg"
+        alt="Logo von neuefische - School and Poll for digital talent"
+      />
+      <h1 class="mt-2">neuefische Blog</h1>
+      <nav class="mt-2">
+        <a href="#articles">articles</a>
+        <a href="#imprint">imprint</a>
+      </nav>
+    </header>
+
+    <main class="mt-5 p-5 shadow">
+      <article>
+        <div class="row">
+          <section class="col-12 col-md-8 text-justify">
+            <h2 class="text-muted h5">HTML</h2>
+            <h3 class="mb-4 h2">The art of sectioning</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+              suscipit molestiae quasi deleniti, magni illum quos nulla natus
+              perferendis animi porro fuga aperiam itaque nisi esse maiores
+              reiciendis vitae provident!
+            </p>
+            <p>
+              Sunt consequatur alias adipisci provident eveniet, optio atque
+              obcaecati, ratione, reprehenderit perspiciatis delectus dicta.
+              Debitis voluptatum tempore eaque ipsam assumenda asperiores a
+              aspernatur dolore rerum reprehenderit? Repellendus provident nemo
+              non?
+            </p>
+            <p>
+              Ratione velit, odio autem tempore quisquam id vitae soluta at
+              commodi molestias nesciunt quo eligendi voluptatibus, incidunt
+              quibusdam ducimus adipisci dolorum fuga amet rem nisi. Velit
+              voluptatem suscipit magni ea.
+            </p>
+          </section>
+
+          <div class="col-12 col-md-4 align-self-center">
+            <aside class="border border-muted p-4 rounded text-center">
+              <h3 class="text-muted h6">Author</h3>
+              <address rel="author">
+                <h4>Luke Skywalker</h4>
+                <img
+                  class="img-fluid rounded-circle my-3"
+                  src="/img/author.jpeg"
+                  alt="Rückenansicht Luke Skywalker"
+                />
+              </address>
+              <h4 class="mt-2">Further articles</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >What is life?</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >Bootstrap? Easy!</a
+                  >
+                </li>
+                <li>
+                  <a href="#" target="_blank" rel="noopener noreferrer"
+                    >You can do it!</a
+                  >
+                </li>
+              </ul>
+            </aside>
+          </div>
+
+          <footer class="mt-5">
+            <h3>Leave a comment</h3>
+            <form action="" class="row mt-4">
+              <div class="col-12 col-md-8">
+                <div class="form-group">
+                  <label for="comment_author">Your name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    id="comment_author"
+                    placeholder="...your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Your email</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    placeholder="...your email"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="comment-text">Your message</label>
+                  <textarea
+                    id="comment-text"
+                    class="form-control"
+                    name="comment"
+                    rows="10"
+                    placeholder="...say something nice..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="form-group text-center">
+                  <button class="btn btn-primary">Send</button>
+                </div>
+              </div>
+            </form>
+
+            <section class="mt-5">
+              <h3>Comments</h3>
+              <ul class="mt-4 p-4 border border-rounded list-unstyled">
+                <li>
+                  <address>
+                    Bill Gates,
+                    <time datetime="2020-05-15T16:30"
+                      >15.05.2020, 16.30 Uhr</time
+                    >:
+                  </address>
+                  <q class="text-center lead">Works great!</q>
+                </li>
+                <li class="mt-4">
+                  <address>
+                    Steve Jobs,
+                    <time datetime="2020-05-15T16:30"
+                      >12.05.2020, 04.20 Uhr</time
+                    >:
+                  </address>
+                  <q class="text-center lead">
+                    Look great.
+                  </q>
+                </li>
+              </ul>
+            </section>
+          </footer>
+        </div>
+      </article>
+    </main>
+
+    <footer class="mt-5" id="imprint">
+      &copy; Copyright neuefische Gmbh
+    </footer>
+  </body>
+</html>
